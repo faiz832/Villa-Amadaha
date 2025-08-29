@@ -37,7 +37,7 @@ export default function Navbar() {
 
   return (
     <nav className="absolute top-0 left-0 w-full z-50">
-      <div className="max-w-[1110px] mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
+      <div className="max-w-[1110px] mx-auto p-4 flex items-center justify-between">
         {/* 🔹 WEB */}
         <div className="hidden md:flex items-center gap-10 relative">
           {/* Web Burger */}
