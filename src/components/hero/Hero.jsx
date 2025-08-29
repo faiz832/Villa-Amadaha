@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <section id="hero" className="h-screen w-full bg-cover bg-center bg-[url(/src/assets/images/hero.png)]">
-      <div className="max-w-[1110px] mx-auto px-4 flex items-center h-full">
+    <section id="hero" className="h-screen max-h-[966px] w-full bg-cover bg-center bg-[url(/src/assets/images/hero.png)]">
+      <div className="max-w-[1110px] mx-auto px-5 flex items-center h-full">
         <div className="max-w-2xl">
           <h1 className="mx-auto w-full max-w-[212px] md:max-w-full text-center md:text-left text-xl md:text-[40px] font-bold leading-[28px] md:leading-[60px] tracking-[-0.023em]">Make your comfort is our happiness</h1>
           <p className="mt-4 text-center md:text-left text-sm md:text-xl md:leading-[28px] md:tracking-[-0.012em]">Studio villa made of bamboo, located near the top of Mount Geulis with a stunning 180 degree bird’s eye view.</p>

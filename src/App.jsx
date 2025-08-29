@@ -1,6 +1,7 @@
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import CTA from "./components/cta/CTA";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <CTA />
+      <Footer />
     </>
   );
 }
