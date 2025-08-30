@@ -1,6 +1,6 @@
 export default function Card({ bgCard, image, title, facilities, beds, guests, price }) {
   return (
-    <div className={`${bgCard} text-black rounded-[3px] md:rounded-md shadow-[2px_4px_15px_rgba(0,0,0,0.08)] overflow-hidden border border-[#F5F5F5]`}>
+    <div className={`${bgCard} text-black rounded-[3px] md:rounded-md shadow-[2px_4px_15px_rgba(0,0,0,0.08)] overflow-hidden border border-[#F5F5F5] hover:shadow-2xl transition duration-300 cursor-pointer`}>
       <div className="p-2 md:p-6 flex flex-col gap-2 md:gap-4">
         <div className="relative h-[154px] md:h-[200px] lg:h-[322px]">
           <img src={image} alt={title} className="absolute inset-0 w-full h-full object-cover rounded-[3px] md:rounded-md" />

@@ -107,7 +107,7 @@ export default function Testimonial() {
           >
             {testimonials.map(({ id, quote, name, role, avatar }) => (
               <SwiperSlide key={id}>
-                <div className="bg-white p-6 min-h-[240px] flex justify-center items-center shadow-[2px_4px_15px_rgba(0,0,0,0.08)]">
+                <div className="bg-white p-6 min-h-[240px] flex justify-center items-center shadow-[2px_4px_15px_rgba(0,0,0,0.08)] hover:shadow-2xl cursor-pointer transition duration-300">
                   <div className="flex flex-col justify-between h-[140px]">
                     <p className="text-sm">{quote}</p>
                     <div className="flex items-center gap-2">

@@ -16,20 +16,18 @@ export default function Gallery() {
           </span>
         </h1>
         <div className="grid grid-cols-3 md:grid-cols-2 gap-4 md:gap-6">
-          {/* Foto kiri besar */}
           <div className="col-span-2 md:col-span-1 w-full min-h-[162px] md:h-[515px]">
-            <div className="w-full h-full">
+            <div className="w-full h-full hover:shadow-2xl cursor-pointer transition duration-300">
               <img src={Gallery1} alt="Big view" className="w-full h-full object-cover rounded-sm" />
             </div>
           </div>
 
-          {/* Foto kanan */}
           <div className="col-span-1 md:col-span-1 flex flex-col gap-2 md:gap-[18px]">
-            <div className="w-full h-full">
+            <div className="w-full h-full hover:shadow-2xl cursor-pointer transition duration-300">
               <img src={Gallery2} alt="Resort" className="w-full h-full object-cover rounded-sm" />
             </div>
 
-            <div className="w-full h-full relative">
+            <div className="w-full h-full relative hover:shadow-2xl cursor-pointer transition duration-300">
               <img src={Gallery3} alt="Pool" className="w-full h-full object-cover rounded-sm" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-white tracking-[-0.021em] hover:underline cursor-pointer text-[10px] md:text-base leading-4 md:leading-normal">More photos</span>
