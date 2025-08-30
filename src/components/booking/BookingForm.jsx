@@ -71,23 +71,23 @@ export default function BookingForm({ selectedRoom, setSelectedRoom, checkIn, se
       </div>
 
       {/* Check in - Desktop */}
-      <div className="hidden lg:flex items-center pl-12 border-l border-[#9E9E9E] cursor-pointer relative" onClick={handleCheckInClick}>
+      <div className="hidden lg:flex items-center pl-12 border-l border-[#9E9E9E] cursor-pointer relative">
         <div className="py-1 flex items-center gap-6 md:w-[150px]">
           <img src={Calendar} alt="calendar" className="w-4 h-4" />
           <span className="text-[#0A0A0A] text-sm md:text-base">{checkIn ? formatDate(checkIn) : "Check in"}</span>
         </div>
         {/* Hidden date input */}
-        <input ref={checkInDateRef} type="date" value={checkIn} min={getTodayDate()} onChange={(e) => setCheckIn(e.target.value)} className="absolute opacity-0 pointer-events-none" />
+        <input ref={checkInDateRef} type="date" value={checkIn} min={getTodayDate()} onChange={(e) => setCheckIn(e.target.value)} className="absolute opacity-0 cursor-pointer pointer-events-auto" />
       </div>
 
       {/* Check out - Desktop */}
-      <div className="hidden lg:flex items-center pl-12 border-l border-[#9E9E9E] cursor-pointer relative" onClick={handleCheckOutClick}>
+      <div className="hidden lg:flex items-center pl-12 border-l border-[#9E9E9E] cursor-pointer relative">
         <div className="py-1 flex items-center gap-6 md:w-[150px]">
           <img src={Calendar} alt="calendar" className="w-4 h-4" />
           <span className="text-[#0A0A0A] text-sm md:text-base">{checkOut ? formatDate(checkOut) : "Check out"}</span>
         </div>
         {/* Hidden date input */}
-        <input ref={checkOutDateRef} type="date" value={checkOut} min={getMinCheckOutDate()} onChange={(e) => setCheckOut(e.target.value)} className="absolute opacity-0 pointer-events-none" />
+        <input ref={checkOutDateRef} type="date" value={checkOut} min={getMinCheckOutDate()} onChange={(e) => setCheckOut(e.target.value)} className="absolute opacity-0 cursor-pointer pointer-events-auto" />
       </div>
 
       {/* Mobile check in & out */}
