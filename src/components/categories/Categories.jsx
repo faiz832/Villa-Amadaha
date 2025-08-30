@@ -55,7 +55,7 @@ export default function Categories() {
           ))}
         </div>
 
-        <a href="#" className="flex w-max mx-auto mt-6 md:mt-12 bg-[#F1F6F6] px-8 md:px-6 py-[10px] md:py-3 text-xs md:text-xl rounded-[5px] text-[#106A64] hover:text-[#F1F6F6] hover:bg-[#106A64] transition duration-300">
+        <a href="#" className="flex w-max mx-auto mt-6 md:mt-12 bg-[#F1F6F6] px-8 md:px-6 py-[10px] md:py-3 text-xs md:text-xl md:rounded-[5px] text-[#106A64] hover:text-[#F1F6F6] hover:bg-[#106A64] transition duration-300">
           Load More
         </a>
       </div>
