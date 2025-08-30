@@ -70,7 +70,7 @@ export default function Testimonial() {
         <img src={Circle} alt="circle" className="hidden lg:block absolute -top-18 left-8 -z-1" />
         <img src={Quote} alt="quote" className="hidden lg:block absolute -top-6 left-20 -z-1" />
         <img src={Decoration1} alt="decoration" className="hidden lg:block absolute top-22 -right-8 -z-1" />
-        <img src={Decoration1} alt="decoration" className="hidden lg:block absolute bottom-0 -left-8 -z-1" />
+        <img src={Decoration1} alt="decoration" className="absolute bottom-2 md:bottom-0 -left-8 -z-1" />
         <h2 className="relative text-black lg:text-[40px] leading-5 lg:leading-[60px] font-semibold tracking-[-0.011em] lg:tracking-[-0.023em] max-w-[169px] lg:max-w-[412px] lg:ml-[74px]">
           What Our <span className="text-[#106A64]">Customer</span>
           <br />
