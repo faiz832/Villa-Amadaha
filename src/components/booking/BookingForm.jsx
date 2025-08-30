@@ -51,7 +51,7 @@ export default function BookingForm({ selectedRoom, setSelectedRoom, checkIn, se
 
         {/* Dropdown room */}
         {roomOpen && (
-          <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 rounded-b-md shadow-lg w-full md:w-70 overflow-hidden z-20">
+          <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 rounded-b-md shadow-md animate-fadeIn w-full md:w-70 overflow-hidden z-20">
             {villaOptions.map((villa) => (
               <div
                 key={villa.name}
