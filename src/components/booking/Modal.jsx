@@ -23,7 +23,7 @@ export default function Modal({ showModal, availabilityResult, selectedRoom, che
             )}
           </div>
         )}
-        <button onClick={onClose} className="w-full mt-6 rounded-md py-2 px-4 bg-[#106A64] text-white cursor-pointer">
+        <button onClick={onClose} className="w-full mt-6 rounded-md py-2 px-4 bg-[#106A64] hover:bg-[#0d5751] transition duration-300 text-white cursor-pointer">
           <span className="text-sm font-semibold">Close</span>
         </button>
       </div>

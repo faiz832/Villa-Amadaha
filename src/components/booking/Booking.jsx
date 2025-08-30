@@ -103,7 +103,7 @@ export default function Booking() {
                 {/* Button */}
                 <button
                   onClick={handleCheckAvailability}
-                  className="w-full lg:w-auto bg-[#106A64] hover:bg-[#0d5751] transition-colors md:rounded-md py-[10px] px-8 lg:px-6 lg:py-4 text-xs lg:text-xl lg:leading-[28px] lg:tracking-[-0.012em] text-white cursor-pointer"
+                  className="w-full lg:w-auto bg-[#106A64] hover:bg-[#0d5751] transition duration-300 md:rounded-md py-[10px] px-8 lg:px-6 lg:py-4 text-xs lg:text-xl lg:leading-[28px] lg:tracking-[-0.012em] text-white cursor-pointer"
                 >
                   Check availability
                 </button>
