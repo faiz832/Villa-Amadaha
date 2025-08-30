@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import About from "./components/about/About";
 import Booking from "./components/booking/Booking";
 import Gallery from "./components/gallery/Gallery";
+import Categories from "./components/categories/Categories";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Hero />
       <Booking />
       <About />
+      <Categories />
       <Gallery />
       <CTA />
       <Footer />
