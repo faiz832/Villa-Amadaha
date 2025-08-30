@@ -7,6 +7,7 @@ import Booking from "./components/booking/Booking";
 import Gallery from "./components/gallery/Gallery";
 import Categories from "./components/categories/Categories";
 import Facilities from "./components/facilities/Facilities";
+import Testimonial from "./components/testimonial/Testimonial";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <About />
       <Categories />
       <Facilities />
+      <Testimonial />
       <Gallery />
       <CTA />
       <Footer />

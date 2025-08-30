@@ -4,8 +4,8 @@ import Decoration from "../../assets/images/decoration1.svg";
 
 export default function Facilities() {
   return (
-    <section id="facility" className="relative my-12 lg:my-39 scroll-mt-[100px] overflow-hidden">
-      <div className="hidden lg:block absolute top-18 right-0 -z-1 w-[576px] h-[324px] bg-[#F1F6F6]"></div>
+    <section id="facility" className="relative pt-12 pb-0 lg:pb-39 scroll-mt-[100px] overflow-hidden">
+      <div className="hidden lg:block absolute bottom-18 right-0 -z-1 w-[576px] h-[324px] bg-[#F1F6F6]"></div>
       <img src={Decoration} alt="decoration" className="sm:hidden absolute top-9 -right-7 -z-1" />
       <div className="relative max-w-[1110px] mx-auto px-5">
         <img src={Decoration} alt="decoration" className="hidden lg:block absolute -top-20 -left-8 -z-1" />
