@@ -24,7 +24,7 @@ export default function Footer() {
       <div className="max-w-[1110px] mx-auto px-5 flex md:grid md:grid-cols-3 justify-between gap-4 md:gap-10">
         {/* Quick Links */}
         <div>
-          <h3 className="text-base lg:text-[28px] font-medium leading-tight md:leading-9 tracking-[-0.011em] md:tracking-[-0.021em] mb-12">Quick Links</h3>
+          <h3 className="text-base md:text-[28px] font-medium leading-tight md:leading-9 tracking-[-0.011em] md:tracking-[-0.021em] mb-4 md:mb-12">Quick Links</h3>
           <ul className="space-y-2 md:space-y-4 lg:space-y-6">
             {quickLinks.map((link, i) => (
               <li key={i}>
@@ -38,7 +38,7 @@ export default function Footer() {
 
         {/* Villa Categories */}
         <div>
-          <h3 className="text-base lg:text-[28px] font-medium leading-tight md:leading-9 tracking-[-0.011em] md:tracking-[-0.021em] mb-12">Villa Categories</h3>
+          <h3 className="text-base md:text-[28px] font-medium leading-tight md:leading-9 tracking-[-0.011em] md:tracking-[-0.021em] mb-4 md:mb-12">Villa Categories</h3>
           <ul className="space-y-2 md:space-y-4 lg:space-y-6">
             {villaCategories.map((category, i) => (
               <li key={i}>
@@ -52,7 +52,7 @@ export default function Footer() {
 
         {/* Contact Us */}
         <div>
-          <h3 className="md:text-[28px] font-medium leading-tight md:leading-9 tracking-[-0.011em] md:tracking-[-0.021em] mb-12">Contact Us</h3>
+          <h3 className="md:text-[28px] font-medium leading-tight md:leading-9 tracking-[-0.011em] md:tracking-[-0.021em] mb-4 md:mb-12">Contact Us</h3>
           <ul className="flex flex-row lg:flex-col gap-2 md:gap-4 lg:gap-6">
             <li>
               <a href="https://maps.app.goo.gl/5uBaLw8gFzTSgWURA" target="_blank" className="flex items-start gap-4">
