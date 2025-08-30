@@ -39,7 +39,7 @@ export default function Categories() {
     <section id="categories" className="my-12 lg:my-39 scroll-mt-[30px]">
       <div className="relative max-w-[1110px] mx-auto px-5">
         <img src={Decoration} alt="decoration" className="hidden md:block absolute top-8 left-0 -z-1" />
-        <h1 className="mb-6 lg:mb-12 text-center text-black lg:text-[40px] font-medium md:font-semibold leading-5 lg:leading-[44px] tracking-[-0.011em] lg:tracking-[-0.023em]">
+        <h1 className="mb-4 lg:mb-12 md:text-center text-black lg:text-[40px] font-medium md:font-semibold leading-5 lg:leading-[44px] tracking-[-0.011em] lg:tracking-[-0.023em]">
           Our choise of <span className="text-[#106A64]">Villa Studios</span>
         </h1>
 
