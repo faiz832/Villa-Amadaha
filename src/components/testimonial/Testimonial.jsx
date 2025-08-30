@@ -76,7 +76,7 @@ export default function Testimonial() {
           <br />
           Are Saying
           <span>
-            <img src={Decoration2} alt="decoration2" className="absolute top-5 right-5" />
+            <img src={Decoration2} alt="decoration2" className="md:hidden absolute top-5 right-5" />
           </span>
         </h2>
 

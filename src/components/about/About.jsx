@@ -6,11 +6,11 @@ export default function About() {
     <section id="about" className="mt-39 scroll-mt-[30px]">
       <div className="relative max-w-[1110px] mx-auto px-5">
         <img src={Decoration} alt="about decoration" className="hidden md:block absolute top-5 right-18 -z-1" />
-        <h1 className="mb-4 lg:mb-32 text-[#0A0A0A] lg:text-[40px] font-semibold leading-5 lg:leading-[44px] tracking-[-0.011em] lg:tracking-[-0.023em]">
+        <h1 className="mb-4 md:mb-12 lg:mb-32 text-[#0A0A0A] md:text-2xl lg:text-[40px] font-semibold leading-5 lg:leading-[44px] tracking-[-0.011em] lg:tracking-[-0.023em]">
           About Villa <span className="text-[#106A64]">Amadaha</span>
         </h1>
 
-        <div className="flex flex-col md:flex-row gap-4 md:gap-[122px]">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-12 lg:gap-[122px]">
           <div className="relative w-full max-w-[368px] aspect-video lg:aspect-square">
             <img src={AboutImage} alt="about villa amadaha" className="w-full h-full object-cover relative z-10" />
             <div className="hidden md:block absolute top-[14px] left-[14px] w-full h-full border border-[#106A64] z-0"></div>

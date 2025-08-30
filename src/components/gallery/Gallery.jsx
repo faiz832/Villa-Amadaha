@@ -8,7 +8,7 @@ export default function Gallery() {
     <section id="gallery" className="relative my-12 lg:my-39 scroll-mt-[30px]">
       <div className="hidden lg:block absolute bg-[#F1F6F6] w-[811px] h-[474px] bottom-[-73px] left-0 z-[-1]"></div>
       <div className="relative w-full max-w-[1110px] mx-auto px-5">
-        <h1 className="mb-6 lg:mb-12 text-center text-black lg:text-[40px] font-medium md:font-semibold leading-5 lg:leading-[44px] tracking-[-0.011em] lg:tracking-[-0.023em]">
+        <h1 className="mb-6 md:mb-8 lg:mb-12 text-center text-black md:text-2xl lg:text-[40px] font-medium md:font-semibold leading-5 lg:leading-[44px] tracking-[-0.011em] lg:tracking-[-0.023em]">
           Our{" "}
           <span className="relative text-[#106A64]">
             <img src={BorderGallery} alt="border gallery" className="md:hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />

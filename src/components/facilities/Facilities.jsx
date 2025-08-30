@@ -12,7 +12,7 @@ export default function Facilities() {
         <img src={Decoration} alt="decoration" className="hidden lg:block absolute -bottom-15 left-[45%] -translate-x-1/2 -z-1" />
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-14">
           <div className="">
-            <h1 className="text-black text-center lg:text-left lg:text-[40px] leading-5 lg:leading-[60px] font-semibold tracking-[-0.011em] lg:tracking-[-0.023em] max-w-[169px] lg:max-w-[412px] mx-auto mb-4 lg:mb-6">
+            <h1 className="text-black text-center lg:text-left md:text-2xl lg:text-[40px] leading-5 lg:leading-[60px] font-semibold tracking-[-0.011em] lg:tracking-[-0.023em] max-w-[169px] md:max-w-[300px] lg:max-w-[412px] mx-auto mb-4 lg:mb-6">
               Various <span className="text-[#106A64]">facilities</span> that you can enjoy
             </h1>
             <p className="text-[#9E9E9E] text-center lg:text-left text-sm lg:text-xl leading-5 lg:leading-7 tracking-[-0.006em] lg:tracking-[-0.012em] max-w-[317px] lg:max-w-[384px] mx-auto lg:mx-0 mb-4 lg:mb-8">
