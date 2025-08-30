@@ -3,7 +3,7 @@ export default function Modal({ showModal, availabilityResult, selectedRoom, che
 
   return (
     <div className="text-black fixed inset-0 bg-black/60 flex items-center justify-center z-[100]">
-      <div className="bg-white rounded-lg p-6 max-w-sm w-full mx-4 relative animate-fadeIn">
+      <div className="bg-white rounded-lg p-6 max-w-[344px] w-full mx-4 relative animate-fadeIn">
         {availabilityResult && (
           <div className="">
             {availabilityResult.available ? (
