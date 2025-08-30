@@ -83,10 +83,10 @@ export default function Booking() {
   return (
     <>
       <section id="booking" className="relative z-50 scroll-mt-[100px]">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
+        <div className="absolute top-[-50px] md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 w-full">
           <div className="max-w-[1110px] mx-auto px-5 flex items-center justify-center">
             <div className="bg-white md:rounded-md w-full shadow-[4px_8px_15px_rgba(0,0,0,0.05)] relative">
-              <div className="md:p-[30px] lg:px-0 flex flex-col lg:flex-row items-center justify-center lg:gap-12">
+              <div className="md:p-4 lg:p-[30px] lg:px-0 flex flex-col lg:flex-row items-center justify-center lg:gap-12">
                 <BookingForm
                   selectedRoom={selectedRoom}
                   setSelectedRoom={setSelectedRoom}
