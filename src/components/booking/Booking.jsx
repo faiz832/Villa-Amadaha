@@ -82,7 +82,7 @@ export default function Booking() {
 
   return (
     <>
-      <section id="booking" className="relative z-50">
+      <section id="booking" className="relative z-50 scroll-mt-[100px]">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
           <div className="max-w-[1110px] mx-auto px-5 flex items-center justify-center">
             <div className="bg-white md:rounded-md w-full shadow-[4px_8px_15px_rgba(0,0,0,0.05)] relative">

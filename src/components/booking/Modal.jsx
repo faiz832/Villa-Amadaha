@@ -17,7 +17,7 @@ export default function Modal({ showModal, availabilityResult, selectedRoom, che
               <div className="flex flex-col items-center gap-6">
                 <h2 className="text-2xl font-semibold">Not Available</h2>
                 <p className="text-xs md:text-sm lg:text-md leading-[18px] text-center text-[#777777] max-w-[300px]">
-                  {selectedRoom} on {formatDate(checkIn)} until {formatDate(checkOut)} is available.
+                  {selectedRoom} on {formatDate(checkIn)} until {formatDate(checkOut)} is not available.
                 </p>
               </div>
             )}

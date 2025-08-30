@@ -2,7 +2,7 @@ import AboutDecoration from "../../assets/images/about-decoration.svg";
 
 export default function About() {
   return (
-    <section id="about" className="my-39">
+    <section id="about" className="my-39 scroll-mt-[30px]">
       <div className="relative max-w-[1110px] mx-auto px-5">
         <img src={AboutDecoration} alt="about decoration" className="hidden md:block absolute top-5 right-18 -z-1" />
         <h1 className="mb-4 lg:mb-32 text-[#0A0A0A] lg:text-[40px] font-semibold leading-5 lg:leading-[44px] tracking-[-0.011em] lg:tracking-[-0.023em]">
