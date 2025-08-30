@@ -3,12 +3,14 @@ import Navbar from "./components/navbar/Navbar";
 import CTA from "./components/cta/CTA";
 import Footer from "./components/footer/Footer";
 import About from "./components/about/About";
+import Booking from "./components/booking/Booking";
 
 export default function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Booking />
       <About />
       <CTA />
       <Footer />
