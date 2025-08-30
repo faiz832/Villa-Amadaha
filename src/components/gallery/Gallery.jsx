@@ -1,4 +1,7 @@
 import BorderGallery from "../../assets/images/border-gallery.svg";
+import Gallery1 from "../../assets/images/gallery1.png";
+import Gallery2 from "../../assets/images/gallery2.png";
+import Gallery3 from "../../assets/images/gallery3.png";
 
 export default function Gallery() {
   return (
@@ -16,18 +19,18 @@ export default function Gallery() {
           {/* Foto kiri besar */}
           <div className="col-span-2 md:col-span-1 w-full min-h-[162px] md:h-[515px]">
             <div className="w-full h-full">
-              <img src="/src/assets/images/gallery1.png" alt="Big view" className="w-full h-full object-cover rounded-sm" />
+              <img src={Gallery1} alt="Big view" className="w-full h-full object-cover rounded-sm" />
             </div>
           </div>
 
           {/* Foto kanan */}
           <div className="col-span-1 md:col-span-1 flex flex-col gap-2 md:gap-[18px]">
             <div className="w-full h-full">
-              <img src="/src/assets/images/gallery2.png" alt="Resort" className="w-full h-full object-cover rounded-sm" />
+              <img src={Gallery2} alt="Resort" className="w-full h-full object-cover rounded-sm" />
             </div>
 
             <div className="w-full h-full relative">
-              <img src="/src/assets/images/gallery3.png" alt="Pool" className="w-full h-full object-cover rounded-sm" />
+              <img src={Gallery3} alt="Pool" className="w-full h-full object-cover rounded-sm" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-white tracking-[-0.021em] hover:underline cursor-pointer text-[10px] md:text-base leading-4 md:leading-normal">More photos</span>
               </div>

@@ -1,4 +1,5 @@
 import AboutDecoration from "../../assets/images/about-decoration.svg";
+import AboutImage from "../../assets/images/about.png";
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row gap-4 md:gap-[122px]">
           <div className="relative w-full max-w-[368px] aspect-video lg:aspect-square">
-            <img src="/src/assets/images/about.png" alt="about villa amadaha" className="w-full h-full object-cover relative z-10" />
+            <img src={AboutImage} alt="about villa amadaha" className="w-full h-full object-cover relative z-10" />
             <div className="hidden md:block absolute top-[14px] left-[14px] w-full h-full border border-[#106A64] z-0"></div>
           </div>
 
