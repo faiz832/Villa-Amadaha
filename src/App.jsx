@@ -4,6 +4,7 @@ import CTA from "./components/cta/CTA";
 import Footer from "./components/footer/Footer";
 import About from "./components/about/About";
 import Booking from "./components/booking/Booking";
+import Gallery from "./components/gallery/Gallery";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Hero />
       <Booking />
       <About />
+      <Gallery />
       <CTA />
       <Footer />
     </>
